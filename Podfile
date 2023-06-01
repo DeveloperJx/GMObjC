@@ -2,6 +2,8 @@ example_project_path = 'Examples/GMObjCDemo'
 test_project_path = 'Tests/GMObjCTests'
 workspace 'GMObjC.xcworkspace'
 
+use_frameworks!
+
 # Example Project
 target 'GMObjC iOS Demo' do
   project example_project_path

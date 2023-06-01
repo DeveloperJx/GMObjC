@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "GMObjC",
     products: [
-        .library(name: "GMObjC", type: .static, targets: ["GMObjC"]),
+        .library(name: "GMObjC", targets: ["GMObjC"]),
     ],
     dependencies: [],
     targets: [
