@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		5DAF06C8F3EC21C7C27325E0 /* libPods-Tests Host.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97846599BF6DC5A1935BCCBC /* libPods-Tests Host.a */; };
 		83F3FDCF62A931848E145BCE /* libPods-Tests iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1380B2C40121152963B734F /* libPods-Tests iOS.a */; };
+		9C27EEC22CE1F63F0028FF60 /* aiboxkit-pkcs12-single.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27EEC12CE1F63F0028FF60 /* aiboxkit-pkcs12-single.p12 */; };
+		9C27EECE2CE1F9960028FF60 /* aiboxkit-cer-ecdsa.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9C27EECC2CE1F9960028FF60 /* aiboxkit-cer-ecdsa.cer */; };
+		9C27EECF2CE1F9960028FF60 /* aiboxkit-pkcs12-pwd.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27EECD2CE1F9960028FF60 /* aiboxkit-pkcs12-pwd.p12 */; };
+		9C646A2F2CDE151E0092937E /* bing-base64-chain.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9C646A282CDE151E0092937E /* bing-base64-chain.cer */; };
+		9C646A302CDE151E0092937E /* bing-base64-single.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9C646A292CDE151E0092937E /* bing-base64-single.cer */; };
+		9C646A312CDE151E0092937E /* bing-der-single.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9C646A2A2CDE151E0092937E /* bing-der-single.cer */; };
+		9C646A322CDE151E0092937E /* github-base64-chain.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9C646A2B2CDE151E0092937E /* github-base64-chain.cer */; };
+		9C646A332CDE151E0092937E /* github-base64-single.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9C646A2C2CDE151E0092937E /* github-base64-single.cer */; };
+		9C646A342CDE151E0092937E /* github-der-single.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9C646A2D2CDE151E0092937E /* github-der-single.cer */; };
+		9C646A362CDE19F20092937E /* GMSmUitlsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C646A352CDE19F20092937E /* GMSmUitlsTests.m */; };
 		9CBB893F27100E7D008411A1 /* GMSm4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBB893627100E7C008411A1 /* GMSm4Tests.m */; };
 		9CBB894027100E7D008411A1 /* GMSm2r1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBB893827100E7C008411A1 /* GMSm2r1Tests.m */; };
 		9CBB894127100E7D008411A1 /* GMBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBB893927100E7C008411A1 /* GMBaseTests.m */; };
@@ -85,8 +95,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3F5276697B3B748C950DEB74 /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
+		2339B4F727125018D8C56B01 /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
+		31EB25C4ADEFCE55E7BE5F43 /* Pods-Tests Host.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests Host.release.xcconfig"; path = "Target Support Files/Pods-Tests Host/Pods-Tests Host.release.xcconfig"; sourceTree = "<group>"; };
+		3BE7FEFDC241924DED8A8D95 /* Pods-Tests Host.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests Host.debug.xcconfig"; path = "Target Support Files/Pods-Tests Host/Pods-Tests Host.debug.xcconfig"; sourceTree = "<group>"; };
+		4F7069CEDC33D9254642F5E5 /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		97846599BF6DC5A1935BCCBC /* libPods-Tests Host.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests Host.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C27EEC12CE1F63F0028FF60 /* aiboxkit-pkcs12-single.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aiboxkit-pkcs12-single.p12"; sourceTree = "<group>"; };
+		9C27EECC2CE1F9960028FF60 /* aiboxkit-cer-ecdsa.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aiboxkit-cer-ecdsa.cer"; sourceTree = "<group>"; };
+		9C27EECD2CE1F9960028FF60 /* aiboxkit-pkcs12-pwd.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aiboxkit-pkcs12-pwd.p12"; sourceTree = "<group>"; };
+		9C646A282CDE151E0092937E /* bing-base64-chain.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bing-base64-chain.cer"; sourceTree = "<group>"; };
+		9C646A292CDE151E0092937E /* bing-base64-single.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bing-base64-single.cer"; sourceTree = "<group>"; };
+		9C646A2A2CDE151E0092937E /* bing-der-single.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "bing-der-single.cer"; sourceTree = "<group>"; };
+		9C646A2B2CDE151E0092937E /* github-base64-chain.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "github-base64-chain.cer"; sourceTree = "<group>"; };
+		9C646A2C2CDE151E0092937E /* github-base64-single.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "github-base64-single.cer"; sourceTree = "<group>"; };
+		9C646A2D2CDE151E0092937E /* github-der-single.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "github-der-single.cer"; sourceTree = "<group>"; };
+		9C646A352CDE19F20092937E /* GMSmUitlsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GMSmUitlsTests.m; sourceTree = "<group>"; };
 		9C7219FF271008A100B86975 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CBB893627100E7C008411A1 /* GMSm4Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMSm4Tests.m; sourceTree = "<group>"; };
 		9CBB893727100E7C008411A1 /* GMSm2v1Tests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSm2v1Tests.h; sourceTree = "<group>"; };
@@ -157,10 +180,7 @@
 		9CC6BE9927118B13004C47EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CC6BE9B27118B13004C47EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CC6BE9C27118B13004C47EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BECF4C9E4D3EF83E161B25F6 /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		D1380B2C40121152963B734F /* libPods-Tests iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F83407F76B36161F71D7A797 /* Pods-Tests Host.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests Host.debug.xcconfig"; path = "Target Support Files/Pods-Tests Host/Pods-Tests Host.debug.xcconfig"; sourceTree = "<group>"; };
-		FDE94E4037780FB06132F3B5 /* Pods-Tests Host.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests Host.release.xcconfig"; path = "Target Support Files/Pods-Tests Host/Pods-Tests Host.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +203,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		279F2D76E1B06E767108EBED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7FEFDC241924DED8A8D95 /* Pods-Tests Host.debug.xcconfig */,
+				31EB25C4ADEFCE55E7BE5F43 /* Pods-Tests Host.release.xcconfig */,
+				4F7069CEDC33D9254642F5E5 /* Pods-Tests iOS.debug.xcconfig */,
+				2339B4F727125018D8C56B01 /* Pods-Tests iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		9C646A2E2CDE151E0092937E /* x509_cer */ = {
+			isa = PBXGroup;
+			children = (
+				9C646A282CDE151E0092937E /* bing-base64-chain.cer */,
+				9C646A292CDE151E0092937E /* bing-base64-single.cer */,
+				9C646A2A2CDE151E0092937E /* bing-der-single.cer */,
+				9C646A2B2CDE151E0092937E /* github-base64-chain.cer */,
+				9C646A2C2CDE151E0092937E /* github-base64-single.cer */,
+				9C646A2D2CDE151E0092937E /* github-der-single.cer */,
+				9C27EECC2CE1F9960028FF60 /* aiboxkit-cer-ecdsa.cer */,
+				9C27EECD2CE1F9960028FF60 /* aiboxkit-pkcs12-pwd.p12 */,
+				9C27EEC12CE1F63F0028FF60 /* aiboxkit-pkcs12-single.p12 */,
+			);
+			path = x509_cer;
+			sourceTree = "<group>";
+		};
 		9C7219F4270FF63E00B86975 = {
 			isa = PBXGroup;
 			children = (
@@ -190,8 +238,8 @@
 				9C721A01271008A100B86975 /* Tests iOS */,
 				9CC6BE8927118B11004C47EE /* Tests Host */,
 				9C721A00271008A100B86975 /* Products */,
-				F7F3B89A00674287AD4D0A06 /* Pods */,
 				DFDF7F1E0955C31AA6D47978 /* Frameworks */,
+				279F2D76E1B06E767108EBED /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +257,7 @@
 			children = (
 				9CBB893D27100E7D008411A1 /* GMBaseTests.h */,
 				9CBB893927100E7C008411A1 /* GMBaseTests.m */,
+				9C646A352CDE19F20092937E /* GMSmUitlsTests.m */,
 				9CBB893C27100E7D008411A1 /* GMSm2BioTests.m */,
 				9CBB893A27100E7C008411A1 /* GMSm2k1Tests.m */,
 				9CBB893827100E7C008411A1 /* GMSm2r1Tests.m */,
@@ -223,6 +272,7 @@
 		9CBB8946271010DA008411A1 /* Tests Sources */ = {
 			isa = PBXGroup;
 			children = (
+				9C646A2E2CDE151E0092937E /* x509_cer */,
 				9CBB8947271010DA008411A1 /* private_pem */,
 				9CBB8952271010DA008411A1 /* private_der */,
 				9CBB895D271010DA008411A1 /* private_pkcs8_pem */,
@@ -342,18 +392,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7F3B89A00674287AD4D0A06 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BECF4C9E4D3EF83E161B25F6 /* Pods-Tests iOS.debug.xcconfig */,
-				3F5276697B3B748C950DEB74 /* Pods-Tests iOS.release.xcconfig */,
-				F83407F76B36161F71D7A797 /* Pods-Tests Host.debug.xcconfig */,
-				FDE94E4037780FB06132F3B5 /* Pods-Tests Host.release.xcconfig */,
-			);
-			name = Pods;
-			path = ../Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -365,6 +403,7 @@
 				9C7219FB271008A100B86975 /* Sources */,
 				9C7219FC271008A100B86975 /* Frameworks */,
 				9C7219FD271008A100B86975 /* Resources */,
+				FA85A8FC6375E11C9230ABF7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -384,6 +423,7 @@
 				9CC6BE8427118B11004C47EE /* Sources */,
 				9CC6BE8527118B11004C47EE /* Frameworks */,
 				9CC6BE8627118B11004C47EE /* Resources */,
+				2D598AA7BB2D034EFFF9B126 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -440,9 +480,11 @@
 				9CBB8987271010DA008411A1 /* sm2pri-8.pem in Resources */,
 				9CBB8992271010DA008411A1 /* sm2pri-10.der in Resources */,
 				9CBB89AF271010DB008411A1 /* sm2pub-9.pem in Resources */,
+				9C27EECE2CE1F9960028FF60 /* aiboxkit-cer-ecdsa.cer in Resources */,
 				9CBB89A8271010DB008411A1 /* sm2pub-4.pem in Resources */,
 				9CBB8996271010DA008411A1 /* sm2pri8-3.pem in Resources */,
 				9CBB899A271010DA008411A1 /* sm2pri8-4.pem in Resources */,
+				9C27EECF2CE1F9960028FF60 /* aiboxkit-pkcs12-pwd.p12 in Resources */,
 				9CBB8988271010DA008411A1 /* sm2pri-9.pem in Resources */,
 				9CBB8986271010DA008411A1 /* sm2pri-10.pem in Resources */,
 				9CBB898C271010DA008411A1 /* sm2pri-6.der in Resources */,
@@ -458,6 +500,7 @@
 				9CBB899E271010DA008411A1 /* sm2pub-2.der in Resources */,
 				9CBB89B0271010DB008411A1 /* sm2pub-8.pem in Resources */,
 				9CBB8997271010DA008411A1 /* sm2pri8-2.pem in Resources */,
+				9C646A312CDE151E0092937E /* bing-der-single.cer in Resources */,
 				9CBB89AB271010DB008411A1 /* sm2pub-3.pem in Resources */,
 				9CBB89A2271010DA008411A1 /* sm2pub-4.der in Resources */,
 				9CBB8983271010DA008411A1 /* sm2pri-2.pem in Resources */,
@@ -465,7 +508,9 @@
 				9CBB8984271010DA008411A1 /* sm2pri-3.pem in Resources */,
 				9CBB8985271010DA008411A1 /* sm2pri-1.pem in Resources */,
 				9CBB89B1271010DB008411A1 /* sm4TestFile.txt in Resources */,
+				9C27EEC22CE1F63F0028FF60 /* aiboxkit-pkcs12-single.p12 in Resources */,
 				9CBB897F271010DA008411A1 /* sm2pri-4.pem in Resources */,
+				9C646A342CDE151E0092937E /* github-der-single.cer in Resources */,
 				9CBB89A0271010DA008411A1 /* sm2pub-7.der in Resources */,
 				9CBB8999271010DA008411A1 /* sm2pri8-5.pem in Resources */,
 				9CBB898D271010DA008411A1 /* sm2pri-7.der in Resources */,
@@ -479,6 +524,10 @@
 				9CBB898A271010DA008411A1 /* sm2pri-3.der in Resources */,
 				9CBB899C271010DA008411A1 /* sm2pri8-7.pem in Resources */,
 				9CBB89AA271010DB008411A1 /* sm2pub-7.pem in Resources */,
+				9C646A332CDE151E0092937E /* github-base64-single.cer in Resources */,
+				9C646A302CDE151E0092937E /* bing-base64-single.cer in Resources */,
+				9C646A2F2CDE151E0092937E /* bing-base64-chain.cer in Resources */,
+				9C646A322CDE151E0092937E /* github-base64-chain.cer in Resources */,
 				9CBB8989271010DA008411A1 /* sm2pri-1.der in Resources */,
 				9CBB8998271010DA008411A1 /* sm2pri8-1.pem in Resources */,
 				9CBB89A4271010DA008411A1 /* sm2pub-8.der in Resources */,
@@ -502,6 +551,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2D598AA7BB2D034EFFF9B126 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests Host/Pods-Tests Host-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests Host/Pods-Tests Host-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests Host/Pods-Tests Host-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		3200F81DDCD9D1BD8B556199 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -546,6 +612,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		FA85A8FC6375E11C9230ABF7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tests iOS/Pods-Tests iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -556,6 +639,7 @@
 				9CBB893F27100E7D008411A1 /* GMSm4Tests.m in Sources */,
 				9CBB894427100E7D008411A1 /* GMSm2BioTests.m in Sources */,
 				9CBB894127100E7D008411A1 /* GMBaseTests.m in Sources */,
+				9C646A362CDE19F20092937E /* GMSmUitlsTests.m in Sources */,
 				9CBB894527100E7D008411A1 /* GMSm2v1Tests.m in Sources */,
 				9CBB894227100E7D008411A1 /* GMSm2k1Tests.m in Sources */,
 				9CBB894327100E7D008411A1 /* GMSm3Tests.m in Sources */,
@@ -665,7 +749,7 @@
 		};
 		9C721A05271008A100B86975 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BECF4C9E4D3EF83E161B25F6 /* Pods-Tests iOS.debug.xcconfig */;
+			baseConfigurationReference = 4F7069CEDC33D9254642F5E5 /* Pods-Tests iOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -701,7 +785,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9CA5KUE8T7;
+				DEVELOPMENT_TEAM = 4BX77JHQHH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -728,7 +812,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lifei.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifei.gmobjc.testsios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -739,7 +823,7 @@
 		};
 		9C721A06271008A100B86975 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F5276697B3B748C950DEB74 /* Pods-Tests iOS.release.xcconfig */;
+			baseConfigurationReference = 2339B4F727125018D8C56B01 /* Pods-Tests iOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -775,7 +859,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9CA5KUE8T7;
+				DEVELOPMENT_TEAM = 4BX77JHQHH;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -795,7 +879,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lifei.Tests-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifei.gmobjc.testsios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = NO;
@@ -807,7 +891,7 @@
 		};
 		9CC6BE9E27118B13004C47EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F83407F76B36161F71D7A797 /* Pods-Tests Host.debug.xcconfig */;
+			baseConfigurationReference = 3BE7FEFDC241924DED8A8D95 /* Pods-Tests Host.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -845,7 +929,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = 9CA5KUE8T7;
+				DEVELOPMENT_TEAM = 4BX77JHQHH;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -876,7 +960,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jinher.jingquezhili;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifei.gmobjc.testhost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -888,7 +972,7 @@
 		};
 		9CC6BE9F27118B13004C47EE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FDE94E4037780FB06132F3B5 /* Pods-Tests Host.release.xcconfig */;
+			baseConfigurationReference = 31EB25C4ADEFCE55E7BE5F43 /* Pods-Tests Host.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -926,7 +1010,7 @@
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = 9CA5KUE8T7;
+				DEVELOPMENT_TEAM = 4BX77JHQHH;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -950,7 +1034,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.jinher.jingquezhili;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifei.gmobjc.testhost;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;

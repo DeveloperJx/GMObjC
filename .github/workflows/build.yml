@@ -1,8 +1,11 @@
+# 当提交 tag 时，运行单元测试，并提交测试覆盖率
+
 name: build
 
 on:
   push:
-    branches: [master]
+    tags:
+      - 4.*
 
 jobs:
   build:
@@ -12,7 +15,7 @@ jobs:
     steps:
       # 第一步，获取源码，将代码检出到虚拟机上
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       # 第二步，安装所需环境
       - name: Install
         run: |
@@ -30,16 +33,16 @@ jobs:
         run: |
           set -o pipefail
           echo Check if the library described by the podspec can be built
-          pod lib lint --allow-warnings --skip-tests
+          pod lib lint --use-libraries --allow-warnings --skip-tests
           echo Build as frameworks
           xcodebuild build -project GMObjC.xcodeproj -scheme 'GMObjC' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty -c
           echo Build the Demo apps
           pod install
-          xcodebuild build -workspace GMObjC.xcworkspace -scheme 'GMObjC iOS Demo' -destination 'platform=iOS Simulator,name=iPhone 12' -configuration Debug CODE_SIGNING_ALLOWED=NO | xcpretty -c
+          xcodebuild build -workspace GMObjC.xcworkspace -scheme 'GMObjC iOS Demo' -destination 'platform=iOS Simulator,name=iPhone 15' -configuration Debug CODE_SIGNING_ALLOWED=NO | xcpretty -c
           echo Clean DerivedData
           rm -rf ~/Library/Developer/Xcode/DerivedData/
           echo Run the tests
-          xcodebuild test -workspace GMObjC.xcworkspace -scheme 'Tests Host' -destination 'platform=iOS Simulator,name=iPhone 12' -configuration Debug CODE_SIGNING_ALLOWED=NO -enableCodeCoverage YES | xcpretty -c
+          xcodebuild test -workspace GMObjC.xcworkspace -scheme 'Tests Host' -destination 'platform=iOS Simulator,name=iPhone 15' -configuration Debug CODE_SIGNING_ALLOWED=NO -enableCodeCoverage YES | xcpretty -c
 
       # 第四步，通知codecov
       - name: Notify codecov

@@ -1,16 +1,16 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.9
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "GMObjC",
+    platforms: [.iOS(.v12), .macOS(.v10_13)],
     products: [
         .library(name: "GMObjC", targets: ["GMObjC"]),
     ],
     dependencies: [],
     targets: [
-        .target(name: "GMObjC", dependencies: ["openssl"], path: "GMObjC"),
-        .binaryTarget(name: "openssl", path: "XCFrameworks/openssl.xcframework"),
+        .binaryTarget(name: "GMObjC", path: "Frameworks/GMObjC.xcframework"),
     ]
 )
