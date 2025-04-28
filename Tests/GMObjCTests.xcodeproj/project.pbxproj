@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DAF06C8F3EC21C7C27325E0 /* libPods-Tests Host.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97846599BF6DC5A1935BCCBC /* libPods-Tests Host.a */; };
-		83F3FDCF62A931848E145BCE /* libPods-Tests iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1380B2C40121152963B734F /* libPods-Tests iOS.a */; };
+		91BA0CCE60654D18B2590CF8 /* Pods_Tests_Host.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019F97CF3765C3495DD6EAE9 /* Pods_Tests_Host.framework */; };
 		9C27EEC22CE1F63F0028FF60 /* aiboxkit-pkcs12-single.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27EEC12CE1F63F0028FF60 /* aiboxkit-pkcs12-single.p12 */; };
 		9C27EECE2CE1F9960028FF60 /* aiboxkit-cer-ecdsa.cer in Resources */ = {isa = PBXBuildFile; fileRef = 9C27EECC2CE1F9960028FF60 /* aiboxkit-cer-ecdsa.cer */; };
 		9C27EECF2CE1F9960028FF60 /* aiboxkit-pkcs12-pwd.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 9C27EECD2CE1F9960028FF60 /* aiboxkit-pkcs12-pwd.p12 */; };
@@ -82,6 +81,7 @@
 		9CC6BE9727118B13004C47EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CC6BE9627118B13004C47EE /* Assets.xcassets */; };
 		9CC6BE9A27118B13004C47EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CC6BE9827118B13004C47EE /* LaunchScreen.storyboard */; };
 		9CC6BE9D27118B13004C47EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6BE9C27118B13004C47EE /* main.m */; };
+		F6A22A98278D9B91221296E1 /* Pods_Tests_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B0F5B9CCAB2FA345050961 /* Pods_Tests_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,11 +95,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		019F97CF3765C3495DD6EAE9 /* Pods_Tests_Host.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_Host.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2339B4F727125018D8C56B01 /* Pods-Tests iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.release.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.release.xcconfig"; sourceTree = "<group>"; };
 		31EB25C4ADEFCE55E7BE5F43 /* Pods-Tests Host.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests Host.release.xcconfig"; path = "Target Support Files/Pods-Tests Host/Pods-Tests Host.release.xcconfig"; sourceTree = "<group>"; };
+		38B0F5B9CCAB2FA345050961 /* Pods_Tests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE7FEFDC241924DED8A8D95 /* Pods-Tests Host.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests Host.debug.xcconfig"; path = "Target Support Files/Pods-Tests Host/Pods-Tests Host.debug.xcconfig"; sourceTree = "<group>"; };
 		4F7069CEDC33D9254642F5E5 /* Pods-Tests iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests iOS.debug.xcconfig"; path = "Target Support Files/Pods-Tests iOS/Pods-Tests iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		97846599BF6DC5A1935BCCBC /* libPods-Tests Host.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests Host.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C27EEC12CE1F63F0028FF60 /* aiboxkit-pkcs12-single.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aiboxkit-pkcs12-single.p12"; sourceTree = "<group>"; };
 		9C27EECC2CE1F9960028FF60 /* aiboxkit-cer-ecdsa.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aiboxkit-cer-ecdsa.cer"; sourceTree = "<group>"; };
 		9C27EECD2CE1F9960028FF60 /* aiboxkit-pkcs12-pwd.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "aiboxkit-pkcs12-pwd.p12"; sourceTree = "<group>"; };
@@ -180,7 +181,6 @@
 		9CC6BE9927118B13004C47EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9CC6BE9B27118B13004C47EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9CC6BE9C27118B13004C47EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D1380B2C40121152963B734F /* libPods-Tests iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,7 +188,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83F3FDCF62A931848E145BCE /* libPods-Tests iOS.a in Frameworks */,
+				F6A22A98278D9B91221296E1 /* Pods_Tests_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +196,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAF06C8F3EC21C7C27325E0 /* libPods-Tests Host.a in Frameworks */,
+				91BA0CCE60654D18B2590CF8 /* Pods_Tests_Host.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,8 +386,8 @@
 		DFDF7F1E0955C31AA6D47978 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1380B2C40121152963B734F /* libPods-Tests iOS.a */,
-				97846599BF6DC5A1935BCCBC /* libPods-Tests Host.a */,
+				019F97CF3765C3495DD6EAE9 /* Pods_Tests_Host.framework */,
+				38B0F5B9CCAB2FA345050961 /* Pods_Tests_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
