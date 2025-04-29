@@ -1,6 +1,6 @@
 framework module GMObjC {
-  umbrella header "GMObjC-iOS-umbrella.h"
-
+  umbrella header "GMObjC.h"
   export *
+
   module * { export * }
 }

@@ -8,10 +8,6 @@
 		<data>
 		4OAGZQYBTYi5WLAJekLSkFPyfkk=
 		</data>
-		<key>Headers/GMObjC-iOS-umbrella.h</key>
-		<data>
-		OvFblXjj0tqqXLmwK8lDlCfxMn4=
-		</data>
 		<key>Headers/GMObjC.h</key>
 		<data>
 		xsUUNF7gsi/OQw+/VrVxdwe44tE=
@@ -38,11 +34,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8To2pcii4Jux+xAx5IwxeoHkMTw=
+		kjoDY6ZJe7kNeWX0cL39HUgeOew=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		hFDmZO4o1Ch+4YU/gV0cm14mOcY=
+		w6IAlwUIADP6kVlFjWbOZjafVSk=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		F6mYXr6EQZyLKcQNM0vmTGcGMns=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -56,17 +56,6 @@
 			<key>hash2</key>
 			<data>
 			gtiOjBSrIqytK8xl4ek+KRcu04D/JOdtD75CN2hwjHw=
-			</data>
-		</dict>
-		<key>Headers/GMObjC-iOS-umbrella.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OvFblXjj0tqqXLmwK8lDlCfxMn4=
-			</data>
-			<key>hash2</key>
-			<data>
-			iT+Qy0EoIrvLNrZbV10JKwbg6cte7wsdLGEa/eauUyY=
 			</data>
 		</dict>
 		<key>Headers/GMObjC.h</key>
@@ -139,11 +128,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hFDmZO4o1Ch+4YU/gV0cm14mOcY=
+			w6IAlwUIADP6kVlFjWbOZjafVSk=
 			</data>
 			<key>hash2</key>
 			<data>
-			zZ7Qm8kg1P9reF6y53wC0yBPPxj3LFL/n1RPKHNUPBc=
+			QIuSzQUiGQcnJpuWfrHI+ZURQmBIvObdy6Qy6iZy4G4=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			F6mYXr6EQZyLKcQNM0vmTGcGMns=
+			</data>
+			<key>hash2</key>
+			<data>
+			oHQY5f4SjiJM03lkvCHFA7eqL1dee0knRoR4rYcyFP4=
 			</data>
 		</dict>
 	</dict>
